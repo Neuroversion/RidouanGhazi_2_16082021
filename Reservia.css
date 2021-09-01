@@ -1,4 +1,99 @@
+html,body {
+    font-family: Raleway;
+}
+
 @font-face {
-    font-family: "Raleway";
-    src: local("static");
+    font-family: 'Raleway';
+    src: local('font/static/Raleway-Regular.ttf');
+}
+header  {
+
+font-family: 'Raleway', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.backBleu {
+    background-color: blue;
+}
+.flexCentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Barre de navigation*/
+.sizeNav {
+    height: 100px;
+}
+.sizeLinks {
+    width: 45%;
+}
+.sizeLink {
+    width: 140px;
+    height: 99px;
+}
+.colorLink1 {
+color: blue;
+
+}
+.colorLink2 {
+    color: black;
+}
+.decorationNone {
+    text-decoration: none;
+}
+.bordureNone {
+    border: none;
+}
+.bordureNav {
+    border-top: 1px solid blue;
+}
+.bordureNav23 {
+border-top: 1px solid transparent;
+}
+.margLogo {
+    margin-bottom: 7px;
+}
+.texteGras {
+    font-weight: bold;
+}
+/*header*/
+.bordureSearch {
+    width: 400px;
+    border-radius: 10px;
+    border: 01px solid #f2f2f2;
+   
+}
+.paddingSearch {
+    padding-left: 20px;
+}
+.recherche {
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.iconSize {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0 0 10px;
+}
+
+.buttonSearch {
+    height: 50px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+.backGris {
+   background-color: #f2f2f2;
 }
