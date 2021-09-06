@@ -103,3 +103,42 @@ border-top: 1px solid transparent;
 .colorBleuClair {
     color: #deebff;
 }
+/*Filtres*/
+.margFiltre {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.filtre {
+    display:flex;
+    align-items: center;
+}
+.margFiltreTitre {
+    margin-right: 20px;
+}
+.filtreTexteIcons {
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.filtreTexteIcons:hover > .filtreTexte {
+    color: #0065fc;
+}
+.filtreTexteIcons:hover > .filtreIcons {
+    color: white;
+    background-color: #0065fc;
+}
+.filtreTexte {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+}
+.filtreIcons {
+    margin-left: -2px;
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065fc;
+    background-color: #deebff;
+}
