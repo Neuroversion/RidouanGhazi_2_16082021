@@ -53,11 +53,15 @@ color: blue;
     border: none;
 }
 .bordureNav {
-    border-top: 1px solid blue;
+    border-top: 1px solid transparent;
 }
-.bordureNav23 {
-border-top: 1px solid transparent;
+.bordureNav:hover {
+border-top: 1px solid #0065fc;
+cursor: pointer;
 }
+.bordureNav:hover > a {
+  color: #0065fc;
+    }
 .margLogo {
     margin-bottom: 7px;
 }
@@ -94,6 +98,11 @@ border-top: 1px solid transparent;
     background-color: #0065fc;
     cursor: pointer;
     border-radius: 0 10px 10px 0;
+}
+
+.buttonSearch:hover {
+    color: #0065fc;
+    background-color: #f2f2f2
 }
 .backGris {
    background-color: #f2f2f2;
@@ -230,6 +239,10 @@ border-top: 1px solid transparent;
     padding: 1%;
     border-radius: 20px;
 }
+.cubeHebergements:hover  {
+    cursor: pointer;
+    transform: scale(1.08);
+}
 .flexColumnCentre {
     display: flex;
     flex-direction: column;
@@ -272,6 +285,10 @@ border-top: 1px solid transparent;
     height: auto;
     padding: 1% 0 1% 1%;
     border-radius: 20px;
+}
+.cubePopulaires:hover {
+    cursor: pointer;
+    transform: scale(1.08);
 }
 .cubeDetailsPopulaires {
     width: 60%;
@@ -320,11 +337,19 @@ border-top: 1px solid transparent;
   border-radius: 15px; 
   box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
+.cubeActivites:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+  }
 .cubeActivite2356 {
     width: 100%;
     border-radius: 15px; 
     box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
+.cubeActivite2356:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+  }
 /*fin réglages bloc*/
 .hauteurTitre {
     height: 60px;
