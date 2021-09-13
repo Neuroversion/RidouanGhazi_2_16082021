@@ -424,3 +424,9 @@ cursor: pointer;
 .margeBlocFoot3 {
     margin-right: 15%;
 }
+.lienFoot {
+    color: black;
+}
+.divLienFoot {
+    height: 30px;
+}
