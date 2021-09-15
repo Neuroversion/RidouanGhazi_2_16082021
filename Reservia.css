@@ -173,6 +173,7 @@ cursor: pointer;
     height: 650px;
     margin-right: 20px;
     border-radius: 10px;
+    margin-bottom: 50px;
 }
 .sizePopulaires {
     flex: 1;
@@ -275,7 +276,7 @@ cursor: pointer;
 .blocPopulaires {
     padding-left: 20px;
     padding-right: 20px;
-
+    margin-bottom: 50px;
 }
 .blocPopulaires12 {
     margin-bottom: 20px;
@@ -422,7 +423,7 @@ cursor: pointer;
 }
 
 .margeBlocFoot3 {
-    margin-right: 15%;
+    margin-right: 24%;
 }
 .lienFoot {
     color: black;

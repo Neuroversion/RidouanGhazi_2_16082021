@@ -1,299 +1,326 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="Reservia.css" />
-        <script src="https://kit.fontawesome.com/24b0e5f442.js" crossorigin="anonymous"></script>
-        <title>Reservia</title>
-
-       
-    </head>
-
-    <body>
-        <nav class="sizeNav">
-            <div class="flexBetween">
-            <div class="margLogo">
-                <img src="images/logo/Reservia.svg" alt="Logo Reservia" id="logo" width="120px" height="50px"/>
-            </div>
-            <div class="sizeLinks flexAround">
-                
-                <div class="sizeLink flexCentre bordureNav">
-                    <a class="colorLink2 decorationNone " href="#">Hébergements</a>
-                </div>
-                <div class="sizeLink flexCentre bordureNav"> 
-                    <a class="colorLink2 decorationNone" href="#">Activités</a>
-                </div>
-                <div class="sizeLink flexCentre bordureNav" >
-                    <a class="texteGras colorLink1 decorationNone" href="#">S'inscrire</a>
-                </div>
-           
+  <head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Reservia.css" />
+    <script
+      src="https://kit.fontawesome.com/24b0e5f442.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Reservia</title>
+  </head>
+  <body>
+    <nav class="sizeNav">
+      <div class="flexBetween">
+        <div class="margLogo">
+          <img
+            src="images/logo/Reservia.svg"
+            alt="Logo Reservia"
+            id="logo"
+            width="120px"
+            height="50px"
+          />
         </div>
+        <div class="sizeLinks flexAround texteGras">
+          <div class="sizeLink flexCentre bordureNav">
+            <a class="colorLink2 decorationNone" href="#hebergements"
+              >Hébergements</a
+            >
+          </div>
+          <div class="sizeLink flexCentre bordureNav">
+            <a class="colorLink2 decorationNone" href="#activites">Activités</a>
+          </div>
+          <div class="sizeLink flexCentre bordureNav">
+            <a class="texteGras colorLink1 decorationNone" href="#"
+              >S'inscrire</a
+            >
+          </div>
         </div>
-        </nav>
-        <header>
-            <section>
-                <div>
-                    <h1>Trouvez votre hébergement pour vos vacances de rêve</h1>
-                    <h4>En plein centre ville ou en pleine nature</h4>
-                </div>
-                <div class="bordureSearch flexCentre">
-                    
-                     <div class="backGris flexCentre iconSize"><i class="fas fa-map-marker-alt"></i></div>
-                        <div>
-                            <input class="recherche flexCentre bordureNone paddingSearch" type="search" value="Marseille , France"></div>
-                            <div class="backBleu flexCentre buttonSearch">Rechercher</div>
-                </div>
-                <div class="filtre margFiltre">
-                    <div class="margFiltreTitre"><h3>Filtres</h3></div>
-                    <div class="filtreTexteIcons flexBetween">
-                        <i class="fas fa-money-bill-wave fa-lg filtreIcons flexCentre"></i>
-                    
-                    <div class="filtreTexte flexCentre">Economiques</div></div>
-                    <div class="filtreTexteIcons flexBetween">
-                        <i class="fas fa-child fa-lg filtreIcons flexCentre"></i>
-                    
-                    <div class="filtreTexte flexCentre">Familiales</div></div>
-                    <div class="filtreTexteIcons flexBetween">
-                        <i class="fas fa-heart fa-lg filtreIcons flexCentre"></i>
-                    <div class="filtreTexte flexCentre">Romantiques</div></div>
-                    <div class="filtreTexteIcons flexBetween">
-                        <i class="fas fa-dog fa-lg filtreIcons flexCentre"></i>
-    
-                    <div class="filtreTexte flexCentre">Animaux autorisés</div>
-                </div>
-                </div>
-                <div class="info">
-<div class="parentIcon flexCentre">
-<i class="fas fa-info fa-xs colorBleu"></i>
-</div>
-<p>Plus de 500 logements sont disponibles dans cette ville</p>
-                </div>
-            </section>
-        </header>
-    <section class="flexAround">
-        <div class="flexColumnAround sizeHebergements backGris blocHebergements">
-          <h2>Hébergements à Marseille</h2> 
-          <div class="bloc1 flexBetween">
+      </div>
+    </nav>
+    <header>
+      <section>
+        <div>
+          <h1>Trouvez votre hébergement pour vos vacances de rêve</h1>
+          <h4>En plein centre ville ou en pleine nature</h4>
+        </div>
+        <div class="bordureSearch flexCentre">
+          <div class="backGris flexCentre iconSize">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div>
+            <input
+              class="recherche flexCentre bordureNone paddingSearch"
+              type="search"
+              value="Marseille , France"
+            />
+          </div>
+          <div class="backBleu flexCentre buttonSearch">Rechercher</div>
+        </div>
+        <div class="filtre margFiltre texteGras">
+          <div class="margFiltreTitre"><h3>Filtres</h3></div>
+          <div class="flexBetween filtreTexteIcons">
+            <i class="fas fa-money-bill-wave fa-lg filtreIcons flexCentre"></i>
+            <div class="filtreTexte flexCentre">Economiques</div>
+          </div>
+          <div class="flexBetween filtreTexteIcons">
+            <i class="fas fa-child fa-lg filtreIcons flexCentre"></i>
+
+            <div class="filtreTexte flexCentre">Familiales</div>
+          </div>
+          <div class="flexBetween filtreTexteIcons">
+            <i class="fas fa-heart fa-lg filtreIcons flexCentre"></i>
+            <div class="filtreTexte flexCentre">Romantiques</div>
+          </div>
+          <div class="flextweeBen filtreTexteIcons">
+            <i class="fas fa-dog fa-lg filtreIcons flexCentre"></i>
+
+            <div class="filtreTexte flexCentre">Animaux autorisés</div>
+          </div>
+        </div>
+        <div class="info">
+          <div class="parentIcon flexCentre">
+            <i class="fas fa-info fa-xs colorBleu"></i>
+          </div>
+          <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+      </section>
+    </header>
+    <section id="hebergements" class="flexAround">
+      <div class="flexColumnAround sizeHebergements backGris blocHebergements">
+        <h2>Hébergements à Marseille</h2>
+        <div class="bloc1 flexBetween">
           <div class="cubeHebergements flexColumnCentre">
-              <div class="imgHebergements1"></div>
-              <div class="cubeDetailsHebergements">
-                  <h3>Auberge de la Cannebiére</h3>
-                  <p>Nuit à partir de 25e</p>
-                <div class="colorBleu">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star colorGris"></i>
-                </div>
-                 
+            <div class="imgHebergements1"></div>
+            <div class="cubeDetailsHebergements">
+              <h3>Auberge de la Cannebiére</h3>
+              <p>Nuit à partir de 25e</p>
+              <div class="colorBleu">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star colorGris"></i>
               </div>
+            </div>
           </div>
           <div class="cubeHebergements flexColumnCentre">
             <div class="imgHebergements2"></div>
             <div class="cubeDetailsHebergements">
-                <h3>Hôtel du port</h3>
-                <p>Nuit à partir de 52e</p>
-                <div class="colorBleu">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
+              <h3>Hôtel du port</h3>
+              <p>Nuit à partir de 52e</p>
+              <div class="colorBleu">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
             </div>
-        </div>
-        <div class="cubeHebergements flexColumnCentre">
+          </div>
+          <div class="cubeHebergements flexColumnCentre">
             <div class="imgHebergements3"></div>
             <div class="cubeDetailsHebergements">
-                <h3>Hôtel les mouettes</h3>
-                <p>Nuit à partir de 76e</p>
-                <div class="colorBleu">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star colorGris"></i>
-                </div>
+              <h3>Hôtel les mouettes</h3>
+              <p>Nuit à partir de 76e</p>
+              <div class="colorBleu">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star colorGris"></i>
+              </div>
             </div>
-        </div>
+          </div>
         </div>
         <div class="bloc2 flexBetween">
-            <div class="cubeHebergements flexColumnCentre">
+          <div class="cubeHebergements flexColumnCentre">
             <div class="imgHebergements4"></div>
             <div class="cubeDetailsHebergements">
-                <h3>Auberge de la mer</h3>
-                <p>Nuit à partir de 46e</p>
-                <div class="colorBleu">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star colorGris"></i>
-                    <i class="fas fa-star colorGris"></i>
-                </div>
+              <h3>Auberge de la mer</h3>
+              <p>Nuit à partir de 46e</p>
+              <div class="colorBleu">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star colorGris"></i>
+                <i class="fas fa-star colorGris"></i>
+              </div>
             </div>
-        </div>
-        <div class="cubeHebergements flexColumnCentre">
+          </div>
+          <div class="cubeHebergements flexColumnCentre">
             <div class="imgHebergements5"></div>
             <div class="cubeDetailsHebergements">
-                <h3>Auberge le panier</h3>
-                <p>Nuit à partir de 23e</p>
-                <div class="colorBleu">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star colorGris"></i>
-                </div>
+              <h3>Auberge le panier</h3>
+              <p>Nuit à partir de 23e</p>
+              <div class="colorBleu">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star colorGris"></i>
+              </div>
             </div>
-        </div>
-        <div class="cubeHebergements flexColumnCentre"> 
+          </div>
+          <div class="cubeHebergements flexColumnCentre">
             <div class="imgHebergements6"></div>
             <div class="cubeDetailsHebergements">
-                <h3>Hôtel chez Amina</h3>
-                <p>Nuit à partir de 96e</p>
-                <div class="colorBleu">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
+              <h3>Hôtel chez Amina</h3>
+              <p>Nuit à partir de 96e</p>
+              <div class="colorBleu">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
             </div>
+          </div>
         </div>
-        </div>
-          <p class="texteGras">Afficher plus</p>
-        </div>
-        <div>
-        <div class="sizePopulaires blocPopulaires backGris">
+        <div></div>
+        <p class="texteGras">Afficher plus</p>
+      </div>
+      <div class="sizePopulaires blocPopulaires backGris">
         <div class="flexBetween">
-            <h2 class="texteGras">Les plus Populaires</h2>
-            <div><i class="fas fa-chart-line fa-2x"></i></div>
+          <h2 class="texteGras">Les plus Populaires</h2>
+          <div><i class="fas fa-chart-line fa-2x"></i></div>
         </div>
         <div class="flexColumnAround">
-        <div class="cubePopulaires blocPopulaires12 flexCentre">
+          <div class="cubePopulaires blocPopulaires12 flexCentre">
             <div class="imgPopulaires1"></div>
             <div class="cubeDetailsPopulaires">
-                <h3>Hôtel Le soleil du matin</h3>
-                <p>Nuit à partir de 128e</p>
-                <div class="colorBleu">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
+              <h3>Hôtel Le soleil du matin</h3>
+              <p>Nuit à partir de 128e</p>
+              <div class="colorBleu">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
             </div>
-            
-        </div>
-        <div class="cubePopulaires blocPopulaires12 flexCentre">
+          </div>
+          <div class="cubePopulaires blocPopulaires12 flexCentre">
             <div class="imgPopulaires2"></div>
             <div class="cubeDetailsPopulaires">
-                <h3>Au coeur de l'eau Chambre d'hôte</h3>
-                <p>Nuit à partir de 71e</p>
-                <div class="colorBleu">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star colorGris"></i>
-                </div>
+              <h3>Au coeur de l'eau Chambre d'hôte</h3>
+              <p>Nuit à partir de 71e</p>
+              <div class="colorBleu">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star colorGris"></i>
+              </div>
             </div>
-                     
-        </div>
-        <div class="cubePopulaires flexCentre">
+          </div>
+          <div class="cubePopulaires flexCentre">
             <div class="imgPopulaires3"></div>
             <div class="cubeDetailsPopulaires">
-                <h3>Hôtel Tout bleu et Blanc</h3>
-                <p>Nuit à partir de 68e</p>
-                <div class="colorBleu">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star colorGris"></i>
-                </div>
+              <h3>Hôtel Tout bleu et Blanc</h3>
+              <p>Nuit à partir de 68e</p>
+              <div class="colorBleu">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star colorGris"></i>
+              </div>
             </div>
-        </div>    
+          </div>
         </div>
-    </div>
-</div>
+      </div>
     </section>
-    <section class="Activités">
-        <h2>Activités à Marseille</h2>
-        <div class="blocActivites flexBetween">
-<div class="cubeActivites flexColumnCentre">
-    <div class="imgActivites1"></div>
-    <div class="hauteurTitre titreActivites"><h3>Vieux Port</h3></div>
-</div>
-    
+    <section id="activites" class="Activités">
+      <h2>Activités à Marseille</h2>
+      <div class="blocActivites flexBetween texteGras">
+        <div class="cubeActivites flexColumnCentre">
+          <div class="imgActivites1"></div>
+          <div class="hauteurTitre titreActivites"><h3>Vieux Port</h3></div>
+        </div>
         <div class="blocActivites2356 flexColumnBetween">
-            <div class="cubeActivite2356 flexColumnCentre">
-                <div class="imgActivites2"></div>
-                <div class="hauteurTitre titreActivites">
-                    <h3>Fort de Pomégues</h3>
-                </div>
+          <div class="cubeActivite2356 flexColumnCentre">
+            <div class="imgActivites2"></div>
+            <div class="hauteurTitre titreActivites">
+              <h3>Fort de Pomégues</h3>
             </div>
-                    
-                   
-                        <div class="cubeActivite2356 flexColumnCentre">
-                            <div class="imgActivites3"></div>
-                            <div class="hauteurTitre titreActivites">
-                                <h3>Îles du Frioules</h3>
-                            </div>
-                        </div>
-                     </div>
-                     <div class="cubeActivites flexColumnCentre">
-                        <div class="imgActivites4"></div>
-                        <div class="hauteurTitre titreActivites"><h3>Parc national des calanques</h3></div>
-                    </div>
-                        
-                            <div class="blocActivites2356 flexColumnBetween">
-                                <div class="cubeActivite2356 flexColumnCentre">
-                                    <div class="imgActivites5"></div>
-                                    <div class="hauteurTitre titreActivites"><h3>Notre-Dame-de-la-Garde</h3></div>
-                                </div>
-                                        
-                                        
-                                            <div class="cubeActivite2356 flexColumnCentre">
-                                                <div class="imgActivites6"></div>
-                                                <div class="hauteurTitre titreActivites"><h3>Parc Longchamp</h3></div>
-                                            </div>
-                                         </div>
-    </div>
-    
+          </div>
+          <div class="cubeActivite2356 flexColumnCentre">
+            <div class="imgActivites3"></div>
+            <div class="hauteurTitre titreActivites">
+              <h3>Îles du Frioules</h3>
+            </div>
+          </div>
+        </div>
+        <div class="cubeActivites flexColumnCentre">
+          <div class="imgActivites4"></div>
+          <div class="hauteurTitre titreActivites">
+            <h3>Parc national des calanques</h3>
+          </div>
+        </div>
+        <div class="blocActivites2356 flexColumnBetween">
+          <div class="cubeActivite2356 flexColumnCentre">
+            <div class="imgActivites5"></div>
+            <div class="hauteurTitre titreActivites">
+              <h3>Notre-Dame-de-la-Garde</h3>
+            </div>
+          </div>
+          <div class="cubeActivite2356 flexColumnCentre">
+            <div class="imgActivites6"></div>
+            <div class="hauteurTitre titreActivites">
+              <h3>Parc Longchamp</h3>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <footer>
-        <div class="footer backGris flexBetween">
-<div class="margeBlocFoot1 tailleBlocFoot">
-    <h3>A propos</h3>
-    <div class="divLienFoot"><a href="#" class="decorationNone lienFoot">Fonctionnement du site</a></div>
-    <div class="divLienFoot"><a href="#" class="decorationNone lienFoot">Conditions générales de vente</a></div>
-    <div><a href="#" class="decorationNone lienFoot">Données et confidentialité</a></div>
-   
-   
-    
-</div>
-<div class="tailleBlocFoot">
-    <h3>Nos hébergements</h3>
-    <div class="divLienFoot"><a href="#" class="decorationNone lienFoot">Charte qualité</a></div>
-    <div><a href="#" class="decorationNone lienFoot">Soumettre votre hôtel</a></div>
-    
-    
-   
-</div>
-<div class="margeBlocFoot3 tailleBlocFoot">
-    <h3>Assistance</h3>
-    <div class="divLienFoot"><a href="#" class="decorationNone lienFoot">Centre d'aide</a></div>
-    <div><a href="#" class="decorationNone lienFoot">Nous contacter</a></div>
-    
-    
-    
-</div>
+      <div class="footer backGris flexBetween">
+        <div class="margeBlocFoot1 tailleBlocFoot">
+          <h3>A propos</h3>
+          <div class="divLienFoot">
+            <a href="#" class="decorationNone lienFoot"
+              >Fonctionnement du site</a
+            >
+          </div>
+          <div class="divLienFoot">
+            <a href="#" class="decorationNone lienFoot"
+              >Conditions générales de vente</a
+            >
+          </div>
+          <div>
+            <a href="#" class="decorationNone lienFoot"
+              >Données et confidentialité</a
+            >
+          </div>
         </div>
+        <div class="tailleBlocFoot">
+          <h3>Nos hébergements</h3>
+          <div class="divLienFoot">
+            <a href="#" class="decorationNone lienFoot">Charte qualité</a>
+          </div>
+          <div>
+            <a href="#" class="decorationNone lienFoot"
+              >Soumettre votre hôtel</a
+            >
+          </div>
+        </div>
+        <div class="margeBlocFoot3 tailleBlocFoot">
+          <h3>Assistance</h3>
+          <div class="divLienFoot">
+            <a href="#" class="decorationNone lienFoot">Centre d'aide</a>
+          </div>
+          <div>
+            <a href="#" class="decorationNone lienFoot">Nous contacter</a>
+          </div>
+        </div>
+      </div>
     </footer>
-    </body>
+  </body>
 </html>
