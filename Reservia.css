@@ -1,13 +1,12 @@
-html,body {
-    font-family: Raleway;
-}
 
 @font-face {
     font-family: 'Raleway';
     src: local('font/static/Raleway-Regular.ttf');
 }
+html,body {
+    font-family: Raleway;
+}
 header  {
-
 font-family: 'Raleway', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .backBleu {
@@ -17,7 +16,7 @@ font-family: 'Raleway', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', '
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
 .flexAround {
     display: flex;
     justify-content: space-around;
@@ -33,7 +32,7 @@ font-family: 'Raleway', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', '
     height: 100px;
 }
 .sizeLinks {
-    width: 45%;
+    width: 33%;
 }
 .sizeLink {
     width: 140px;
@@ -41,7 +40,6 @@ font-family: 'Raleway', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', '
 }
 .colorLink1 {
 color: blue;
-
 }
 .colorLink2 {
     color: black;
@@ -70,10 +68,9 @@ cursor: pointer;
 }
 /*header*/
 .bordureSearch {
-    width: 400px;
+    width: 430px;
     border-radius: 10px;
     border: 01px solid #f2f2f2;
-   
 }
 .paddingSearch {
     padding-left: 20px;
@@ -90,16 +87,14 @@ cursor: pointer;
     width: 50px;
     border-radius: 10px 0 0 10px;
 }
-
 .buttonSearch {
     height: 50px;
-    width: 120px;
+    width: 150px;
     color: white;
     background-color: #0065fc;
     cursor: pointer;
     border-radius: 0 10px 10px 0;
 }
-
 .buttonSearch:hover {
     color: #0065fc;
     background-color: #f2f2f2
@@ -109,6 +104,7 @@ cursor: pointer;
 }
 .colorBleu {
     color: #0065fc;
+
 }
 .colorBleuClair {
     color: #deebff;
@@ -117,9 +113,10 @@ cursor: pointer;
     color:rgb(241, 240, 240);
 }
 /*Filtres*/
+
 .margFiltre {
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 .filtre {
     display:flex;
@@ -129,10 +126,10 @@ cursor: pointer;
     margin-right: 20px;
 }
 .filtreTexteIcons {
-    border: 2px solid #f2f2f2;
+    border: 3px solid #f2f2f2;
     height: 50px;
     border-radius: 30px;
-    margin-right: 20px;
+    margin-right: 60px;
 }
 .filtreTexteIcons:hover > .filtreTexte {
     color: #0065fc;
@@ -159,6 +156,7 @@ cursor: pointer;
 .info {
     display: flex;
     align-items: center;
+    padding-bottom: 15px;
 }
 .parentIcon {
     width: 20px;
@@ -186,8 +184,9 @@ cursor: pointer;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 250px;
+    height: 300px;
     border-radius: 15px 15px 0 0;
+    padding-bottom: 1px;
 }
 .imgHebergements2 {
     background-image: url(./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
@@ -230,15 +229,16 @@ cursor: pointer;
     border-radius: 15px 15px 0 0;
 }
 .blocHebergements {
-   padding-left: 20px; 
-   padding-right: 20px;
+   padding-left: 40px; 
+   padding-right: 40px;
 }
 .cubeHebergements {
     width: 30%;
     height: 200px;
     background-color: white;
-    padding: 1%;
+    padding: 0.7%;
     border-radius: 20px;
+    box-shadow: 5px 5px 5px 1px #dad8d8;
 }
 .cubeHebergements:hover  {
     cursor: pointer;
@@ -262,37 +262,40 @@ cursor: pointer;
 }
 .bloc1 {
     margin-bottom: 10px;
-    margin-top: -30px;
-
+    margin-top: -20px;
 }
 .bloc2 {
     margin-top: 10px;
-
 }
 .cubeDetailsHebergements {
     width: 90%;
+    height: 38%;
+    line-height: 4px;
 }
 /* Populaires*/
 .blocPopulaires {
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 50px;
+    justify-content: center;
 }
 .blocPopulaires12 {
     margin-bottom: 20px;
 }
 .cubePopulaires {
+    width: 90%;
     background-color: white;
     height: auto;
     padding: 1% 0 1% 1%;
     border-radius: 20px;
+    box-shadow: 5px 5px 5px 1px #dad8d8;
 }
 .cubePopulaires:hover {
     cursor: pointer;
     transform: scale(1.08);
 }
 .cubeDetailsPopulaires {
-    width: 60%;
+    width: 70%;
     padding-left: 5%;
 }
 .imgPopulaires1 {
@@ -359,7 +362,6 @@ cursor: pointer;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    
     width: 95%;
 }
 .imgActivites1 {
@@ -421,7 +423,6 @@ cursor: pointer;
 .margeBlocFoot1 {
     margin-left: 5%;
 }
-
 .margeBlocFoot3 {
     margin-right: 24%;
 }
