@@ -9,6 +9,10 @@ html,body {
 header  {
 font-family: 'Raleway', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.sizePage {
+    margin-left: 60px;
+    margin-right: 60px;
+}
 .backBleu {
     background-color: blue;
 }
@@ -62,6 +66,7 @@ cursor: pointer;
     }
 .margLogo {
     margin-bottom: 7px;
+    -margin-left: 40px;
 }
 .texteGras {
     font-weight: bold;
@@ -104,7 +109,6 @@ cursor: pointer;
 }
 .colorBleu {
     color: #0065fc;
-
 }
 .colorBleuClair {
     color: #deebff;
@@ -113,7 +117,6 @@ cursor: pointer;
     color:rgb(241, 240, 240);
 }
 /*Filtres*/
-
 .margFiltre {
     margin-top: 30px;
     margin-bottom: 15px;
@@ -168,16 +171,10 @@ cursor: pointer;
 /* Hébergements */
 .sizeHebergements {
     flex: 2;
-    height: 650px;
+    height: 800px;
     margin-right: 20px;
     border-radius: 10px;
     margin-bottom: 50px;
-}
-.sizePopulaires {
-    flex: 1;
-    height: 650px;
-    margin-left: 20px;
-    border-radius: 10px;
 }
 .imgHebergements1 {
     background-image: url(./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
@@ -233,8 +230,8 @@ cursor: pointer;
    padding-right: 40px;
 }
 .cubeHebergements {
-    width: 30%;
-    height: 200px;
+    width: 28%;
+    height: 220px;
     background-color: white;
     padding: 0.7%;
     border-radius: 20px;
@@ -273,20 +270,26 @@ cursor: pointer;
     line-height: 4px;
 }
 /* Populaires*/
+.sizePopulaires {
+    flex: 0.8;
+    height: 770px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
 .blocPopulaires {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
     margin-bottom: 50px;
     justify-content: center;
 }
 .blocPopulaires12 {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 .cubePopulaires {
     width: 90%;
     background-color: white;
     height: auto;
-    padding: 1% 0 1% 1%;
+    padding: 1.4%;
     border-radius: 20px;
     box-shadow: 5px 5px 5px 1px #dad8d8;
 }
@@ -295,8 +298,9 @@ cursor: pointer;
     transform: scale(1.08);
 }
 .cubeDetailsPopulaires {
-    width: 70%;
+    width: 60%;
     padding-left: 5%;
+    padding-right: 20%;
 }
 .imgPopulaires1 {
     background-image: url(./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
@@ -356,7 +360,7 @@ cursor: pointer;
   }
 /*fin réglages bloc*/
 .hauteurTitre {
-    height: 60px;
+    height: 80px;
 }
 .titreActivites {
     display: flex;
@@ -416,19 +420,21 @@ cursor: pointer;
 .footer {
     height: 300px;
     margin-top: 100px;
+    margin-left: -60px;
+    margin-right: -60px;
 }
-.tailleBlocFoot {
-    height: 150px;
+.blocFooterSize {
+    height: 150px; 
 }
-.margeBlocFoot1 {
-    margin-left: 5%;
+.margeBlocFooter1 {
+    margin-left: 3%;
 }
-.margeBlocFoot3 {
-    margin-right: 24%;
+.margeBlocFooter3 {
+    margin-right: 26%;
 }
-.lienFoot {
+.FooterLink {
     color: black;
 }
-.divLienFoot {
+.divFooterLink {
     height: 30px;
 }
