@@ -41,9 +41,11 @@ header {
 
 
 /* Barre de navigation*/
-
+.desktopNone {
+    display: none;
+}
 .sizeNav {
-    height: 100px;
+    height: auto;
 }
 
 .sizeLinks {
@@ -595,5 +597,109 @@ header {
         margin-right: 0;
         margin-top: 50px;
         padding: 5%;
+    }
+}
+@media screen and (max-width:770px) {
+    .sizeLinks {width: 90%;
+    }
+    .sizeLink12 {
+        margin-left: 20%;
+    }
+    .blocHebergements {
+height: auto;
+    }
+    .bloc1 {
+flex-direction: column;
+margin-bottom: 0;
+    }
+    .bloc2 {
+flex-direction: column;
+margin-top: 0;
+    }
+    .cubeHebergements {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .cubeDetailsHebergements {
+        min-height: auto;
+    }
+    .blocActivites {
+        flex-direction: column;
+        height: auto;
+    }
+    .cubeActivites {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .blocActivites2356 {
+        width: 100%;
+        height: auto;
+    }
+    .cubeActivite2356 {
+        margin-bottom: 50px;
+    }
+.imgActivites1,.imgActivites2,.imgActivites3,.imgActivites4,.imgActivites5,.imgActivites6 {
+    height: 200px;
+}
+.footer {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding-left: 55px;
+}
+.margeBlocFooter1 {
+    margin-left: 0px;
+}
+}
+@media screen and (max-width:630px) {
+    .sizeLink {
+        flex-direction: row;
+    }
+    .sizeLink12 {
+order: 1;
+width: 100%;
+margin-left: 0;
+    }
+    .sizeLinkMobile {
+width: 50%;
+border-top: none;
+border-bottom: 2px solid #f2f2f2;
+    }
+    .sizeLinkMobile:hover {
+        border-top: 0;
+        border-bottom: 5px solid #0065fc;
+            }
+    .sizeLinks {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;  
+    }
+    .mobileTitreh1 {
+        font-size: x-large;
+    }
+    .bordureSearch {
+        width: auto;
+        border: none; 
+    }
+    .recherche {
+        width: 200px; 
+        border-bottom: 1px solid #f2f2f2;
+        border-top: 1px solid #f2f2f2;
+    }
+    .buttonSearch {
+        width: 50px;
+        border-radius: 15px;
+      
+    }
+    .desktopNone {
+        display: block;
+       
+    }
+    .mobileNone {
+        display: none;
+    }
+    .html,body {
+        margin:0;
+        padding: 0;
     }
 }
