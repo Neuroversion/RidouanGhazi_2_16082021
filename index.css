@@ -2,7 +2,7 @@
   font-family: "Raleway";
   src: local("font/static/Raleway-Regular.ttf");
 }
-
+/* General*/
 html,
 body {
   font-family: Raleway;
@@ -39,13 +39,30 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+.flexColumnCentre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.flexColumnAround {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.flexColumnBetween {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 /* Barre de navigation*/
 .desktopNone {
   display: none;
 }
 .sizeNav {
-  height: auto;
+  height: 100px;
 }
 
 .sizeLinks {
@@ -92,7 +109,7 @@ header {
 
 .margLogo {
   margin-bottom: 7px;
-  -margin-left: 40px;
+  
 }
 
 .texteGras {
@@ -104,7 +121,7 @@ header {
 .bordureSearch {
   width: 430px;
   border-radius: 10px;
-  border: 01px solid #f2f2f2;
+  border: 1px solid #f2f2f2;
 }
 
 .paddingSearch {
@@ -223,16 +240,15 @@ header {
 
 .sizeHebergements {
   flex: 2;
-  height: 750px;
-  margin-right: 20px;
+  height: 720px;
+  margin-right: 40px;
   border-radius: 10px;
-  margin-bottom: 50px;
 }
 
 .imgHebergements1 {
   object-fit: cover;
   width: 100%;
-  height: 60%;
+  height: 120px;
   border-radius: 15px 15px 0 0;
   padding-bottom: 1px;
 }
@@ -240,50 +256,51 @@ header {
 .imgHebergements2 {
   object-fit: cover;
   width: 100%;
-  height: 60%;
+  height: 120px;
   border-radius: 15px 15px 0 0;
 }
 
 .imgHebergements3 {
   object-fit: cover;
   width: 100%;
-  height: 60%;
+  height: 120px;
   border-radius: 15px 15px 0 0;
 }
 
 .imgHebergements4 {
   object-fit: cover;
   width: 100%;
-  height: 60%;
+  height: 120px;
   border-radius: 15px 15px 0 0;
 }
 
 .imgHebergements5 {
   object-fit: cover;
   width: 100%;
-  height: 60%;
+  height: 120px;
   border-radius: 15px 15px 0 0;
 }
 
 .imgHebergements6 {
   object-fit: cover;
   width: 100%;
-  height: 60%;
+  height: 120px;
   border-radius: 15px 15px 0 0;
 }
 
 .blocHebergements {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .cubeHebergements {
-  width: 28%;
-  height: 210px;
+  width: 30%;
+  height: auto;
   background-color: white;
   padding: 0.7%;
   border-radius: 20px;
   box-shadow: 5px 5px 5px 1px #dad8d8;
+  font-size: larger;
 }
 
 .cubeHebergements:hover {
@@ -291,82 +308,66 @@ header {
   transform: scale(1.08);
 }
 
-.flexColumnCentre {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
-.flexColumnAround {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.flexColumnBetween {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
 
 .bloc1 {
-  margin-bottom: 0px;
-  margin-top: -20px;
+  margin-bottom: 10px;
+ 
 }
 
 .bloc2 {
   margin-top: 10px;
-  margin-bottom: 0px;
+  
 }
 
 .cubeDetailsHebergements {
-  width: 90%;
-
-  margin-top: -5px;
-  height: 30%;
-  line-height: 4px;
+  width: 90%
 
 }
 
 /* Populaires*/
 
 .sizePopulaires {
-  flex: 1.1;
-  height: 720px;
-  margin-left: 30px;
+  flex: 0.7;
+  height: 700px;
+  margin-right: 20px;
   border-radius: 10px;
 }
 
 .blocPopulaires {
-  padding-top: 30px;
-  padding-left: 30px;
-  margin-bottom: 50px;
-  justify-content: center;
+  padding-top: 20px;
+  padding-left: 2.5%;
+  padding-right: 3%;
 }
-
 .blocPopulaires12 {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .cubePopulaires {
-  width: 85%;
   background-color: white;
   height: auto;
-  padding: 1.4%;
+  width: 100%;
+  padding: 1.5% 0 1.5% 1.5%;
   border-radius: 20px;
   box-shadow: 5px 5px 5px 1px #dad8d8;
+  align-items: flex-start;
 }
-
 .cubePopulaires:hover {
   cursor: pointer;
   transform: scale(1.08);
 }
-
 .cubeDetailsPopulaires {
   width: 60%;
   padding-left: 5%;
-  padding-right: 20%;
-  
+
+}
+.titrePopulaire {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.iconPopulaire {
+  margin-right: 20px;
+  margin-bottom: 40px;
 }
 
 .imgPopulaires1 {
@@ -400,9 +401,8 @@ header {
 
 .Activites {
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
-
 .blocActivites {
   width: 100%;
   height: 600px;
@@ -438,9 +438,12 @@ header {
 }
 
 /*fin réglages bloc*/
-
+.espaceSection {
+  margin-top: 70px;
+  margin-bottom: 25px;
+}
 .hauteurTitre {
-  height: 80px;
+  height: 70px;
 }
 
 .titreActivites {
@@ -448,6 +451,7 @@ header {
   justify-content: flex-start;
   align-items: center;
   width: 95%;
+  padding-left: 5%;
 }
 
 .imgActivites1 {
@@ -560,6 +564,7 @@ header {
   .mobileFiltreWrap {
     flex-direction: column;
     align-items: flex-start;
+    -margin-left: -5px;
   }
   .filtreTexteIcons {
     margin-bottom: 20px;
@@ -638,9 +643,10 @@ header {
   }
   .margeBlocFooter1 {
     margin-left: 0px;
+    margin-bottom: 30px;
   }
 }
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 613px) {
   .sizeLink {
     flex-direction: row;
   }
@@ -665,6 +671,10 @@ header {
   }
   .mobileTitreh1 {
     font-size: x-large;
+  }
+  .mobileTitreTrouvez {
+    margin-top: 130px;
+    margin-bottom: 30px;
   }
   .bordureSearch {
     width: auto;
@@ -695,6 +705,9 @@ header {
   .mobileFamilial {
     margin-right: 0px;
   }
+  .mobileFiltreWrap {
+    margin-left: -8px;
+  }
 
   .sizePage {
     margin: 20px;
@@ -707,7 +720,7 @@ header {
     border-radius: 0;
     width: 110%;
     padding-left: 45px;
-    margin-bottom: 0px;
+    padding-bottom: 10px;
   }
   .blocHebergements {
     border-radius: 0;
@@ -717,4 +730,15 @@ header {
     padding: 5%;
     width: 90%;
   }
+  .footer {
+    margin-top: -10px;
+  }
+  .titrePopulaire {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .blocHebergements {
+    margin-top: 0px;
+  }
 }
+
