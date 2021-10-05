@@ -109,7 +109,6 @@ header {
 
 .margLogo {
   margin-bottom: 7px;
-  
 }
 
 .texteGras {
@@ -132,8 +131,9 @@ header {
   height: 50px;
   width: 230px;
   font-size: 18px;
-  color: black;
   font-weight: bold;
+  color: black;
+  
 }
 
 .iconSize {
@@ -191,8 +191,8 @@ header {
 .filtreTexteIcons {
   border: 3px solid #f2f2f2;
   height: 50px;
-  border-radius: 30px;
   margin-right: 20px;
+  border-radius: 30px;
 }
 
 .filtreTexteIcons:hover > .filtreTexte {
@@ -212,10 +212,10 @@ header {
 }
 
 .filtreIcons {
-  margin-left: -2px;
-  border-radius: 25px;
   width: 52px;
   height: 52px;
+  margin-left: -2px;
+  border-radius: 25px;
   color: #0065fc;
   background-color: #deebff;
 }
@@ -231,9 +231,10 @@ header {
 .parentIcon {
   width: 20px;
   height: 20px;
+  margin-right: 5px;
   border: 2px solid #f2f2f2;
   border-radius: 25px;
-  margin-right: 5px;
+  
 }
 
 /* Hébergements */
@@ -296,10 +297,10 @@ header {
 .cubeHebergements {
   width: 30%;
   height: auto;
-  background-color: white;
   padding: 0.7%;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px 1px #dad8d8;
+  background-color: white;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
   font-size: larger;
 }
 
@@ -308,21 +309,16 @@ header {
   transform: scale(1.08);
 }
 
-
-
 .bloc1 {
   margin-bottom: 10px;
- 
 }
 
 .bloc2 {
   margin-top: 10px;
-  
 }
 
 .cubeDetailsHebergements {
-  width: 90%
-
+  width: 90%;
 }
 
 /* Populaires*/
@@ -344,13 +340,14 @@ header {
 }
 
 .cubePopulaires {
-  background-color: white;
   height: auto;
-  width: 100%;
+  width: 100%; 
+  align-items: flex-start;
   padding: 1.5% 0 1.5% 1.5%;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px 1px #dad8d8;
-  align-items: flex-start;
+  background-color: white;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+ 
 }
 .cubePopulaires:hover {
   cursor: pointer;
@@ -359,7 +356,6 @@ header {
 .cubeDetailsPopulaires {
   width: 60%;
   padding-left: 5%;
-
 }
 .titrePopulaire {
   margin-top: 10px;
@@ -540,7 +536,10 @@ header {
 
 /*Responsive*/
 
-@media screen and (max-width: 1295px) {
+@media screen and (max-width: 1300px) {
+  .sizePage {
+    margin-right: 50px;
+  }
   .sizeLink12 {
     margin-left: 35%;
   }
@@ -552,7 +551,7 @@ header {
     padding: 20px;
   }
   .sizePopulaires {
-    min-height: auto;
+    min-height: 720px;
     padding: 20px;
   }
   .tabletteSizeTitrePop {
@@ -560,11 +559,13 @@ header {
   }
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1000px) {
+  .sizePopulaires {
+   margin-right: 0px;
+  }
   .mobileFiltreWrap {
     flex-direction: column;
     align-items: flex-start;
-    -margin-left: -5px;
   }
   .filtreTexteIcons {
     margin-bottom: 20px;
@@ -582,12 +583,15 @@ header {
   .blocHebergements {
     flex: none;
     width: 90%;
-    margin-right: 0;
     margin-top: 50px;
+    margin-right: 0;
     padding: 5%;
   }
 }
 @media screen and (max-width: 770px) {
+  sizePage {
+    -margin-right: 40px;
+  }
   .sizeLinks {
     width: 90%;
   }
@@ -681,9 +685,10 @@ header {
     border: none;
   }
   .recherche {
-    width: 200px;
-    border-bottom: 1px solid #f2f2f2;
+    width: 200px; 
     border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+   
   }
   .buttonSearch {
     width: 50px;
@@ -699,8 +704,9 @@ header {
     padding-left: 3%;
   }
   .mobileEconomiques {
-    margin-right: 10px;
     margin-left: -8px;
+    margin-right: 10px;
+    
   }
   .mobileFamilial {
     margin-right: 0px;
@@ -710,35 +716,86 @@ header {
   }
 
   .sizePage {
-    margin: 20px;
-    padding: 0px;
+    margin-left: 30px;
+    -padding: 0px;
   }
   .filtreTexte {
     padding-right: 10px;
   }
-  .blocPopulaires {
-    border-radius: 0;
-    width: 110%;
-    padding-left: 45px;
-    padding-bottom: 10px;
+  .sizePopulaires {
+    width: 124%;
+    border-radius: 0px;
   }
-  .blocHebergements {
-    border-radius: 0;
-    background-color: white;
-  }
-  .blocActivites {
-    padding: 5%;
+  .cubePopulaires {
     width: 90%;
-  }
-  .footer {
-    margin-top: -10px;
+    margin-left: 15px;
+    
   }
   .titrePopulaire {
+    margin-right: 40px;
+    margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 40px;
   }
+  .iconPopulaire {
+    margin-top: auto;
+  }
+  .sizeHebergements {
+    width: 124%;
+    border-radius: 0px;
+  }
+  .titreHebergements {
+    margin-left: 20px;
+  }
+  .cubeHebergements {
+    margin-left: 2px;
+    width: 90%;
+    padding: 1.5%;
+    font-size: large;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .cubeDetailsHebergements {
+    height: 85px;
+    line-height: 2%;
+  }
   .blocHebergements {
     margin-top: 0px;
+    border-radius: 0;
+    background-color: white;
   }
+  .afficherPlus {
+    margin-left: 20px;
+  }
+  .espaceSection {
+  margin-left: -10px;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
-
+  .blocActivites {
+    width: 90%;
+    padding: 5%;
+    
+  }
+  .cubeActivites {
+    width: 128%;
+    height: 210px;
+    margin-left: 2px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    
+  }
+  .cubeActivite2356 { 
+    width: 124%;
+    height: 210px;
+    margin-left: -30px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+   
+  }
+  .footer {
+    margin-top: 30px;
+    margin-bottom: -40px;
+  }
+  
+}
